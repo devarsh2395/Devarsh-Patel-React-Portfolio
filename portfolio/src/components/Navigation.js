@@ -1,22 +1,24 @@
-import React from 'react';
-import './style.css';
+import React, {useEffect} from 'react';
 
-function Navigation({ currentPage, handlePageChange }) {
-  const pages = ['About', 'Portfolio', 'Contact', 'Resume'];
+function Navigation(props) {
+ const {
+  pages = [],
+  setCurrentPage, 
+  currentPage
+ } = props
 
+ useEffect(() => {
+  document.title = currentPage.name;
+ }, [currentPage])
   return (
     <nav>
-      <ul>
-        {pages.map((page) => (
-          <li key={page}>
-            <a
-              href={`#${page}`}
-              onClick={() => handlePageChange(page)}
-              className={currentPage === page ? 'active' : ''}
-            >
-              {page}
-            </a>
-          </li>
+      <ul className='flex-row'>
+        {pages.map((Page) => (
+         <li className={`mx-5 ${currentPage.name === Page.name && 'navActive'}`} key={Page.name}>
+          <span onClick={() => setCurrentPage(Page)}>
+            {Page.name}
+          </span>
+         </li>
         ))}
       </ul>
     </nav>
