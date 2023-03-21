@@ -41,8 +41,6 @@ const Resume = () => {
                 <li className="list-inline-item">Test Driven Development</li>
                 <li className="list-inline-item">REST APIs</li>
                 <li className="list-inline-item">JSON</li>
-
-
               </ul>
             </div>
           </div>

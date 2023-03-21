@@ -11,17 +11,19 @@ function Navigation(props) {
   document.title = currentPage.name;
  }, [currentPage])
   return (
-    <nav>
-      <ul className='flex-row'>
-        {pages.map((Page) => (
-         <li className={`mx-5 ${currentPage.name === Page.name && 'navActive'}`} key={Page.name}>
-          <span onClick={() => setCurrentPage(Page)}>
+    <nav className="navbar navbar-expand-md navbar-light bg-light">
+  <div className="container-fluid">
+    <ul className="navbar-nav ms-auto mb-2 mb-md-0">
+      {pages.map((Page) => (
+        <li className={`nav-item ${currentPage.name === Page.name && 'active'}`} key={Page.name}>
+          <span className="nav-link" onClick={() => setCurrentPage(Page)}>
             {Page.name}
           </span>
-         </li>
-        ))}
-      </ul>
-    </nav>
+        </li>
+      ))}
+    </ul>
+  </div>
+</nav>
   );
 }
 
