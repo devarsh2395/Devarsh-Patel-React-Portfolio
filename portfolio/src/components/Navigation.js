@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 
 function Navigation({ currentPage, handlePageChange }) {
   const pages = ['About', 'Portfolio', 'Contact', 'Resume'];

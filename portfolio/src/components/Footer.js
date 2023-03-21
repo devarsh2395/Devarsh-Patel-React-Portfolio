@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-6 col-md-12 mb-2 mb-lg-0">
             <p className="m-0">
-              &copy; 2023 Your Name. All Rights Reserved.
+              &copy; 2023 Devarsh Patel. All Rights Reserved.
             </p>
           </div>
           <div className="col-lg-6 col-md-12">
