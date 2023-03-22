@@ -24,20 +24,20 @@ const Portfolio = () => {
       github: 'https://github.com/devarsh2395/Progressive-Web-Applications-PWA-Challenge-Text-Editor',
       deploy: 'https://pwa-web-app-devarsh.herokuapp.com/'
     },
-    // {
-    //   title: 'Project 2',
-    //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    //   image: 'https://via.placeholder.com/300x200',
-    //   github: 'https://github.com/yourusername/project2',
-    //   deploy: 'https://yourdeploylink.com/project2'
-    // },
-    // {
-    //   title: 'Project 2',
-    //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    //   image: 'https://via.placeholder.com/300x200',
-    //   github: 'https://github.com/yourusername/project2',
-    //   deploy: 'https://yourdeploylink.com/project2'
-    // },
+    {
+      title: 'Project 2',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      image: 'https://via.placeholder.com/300x200',
+      github: 'https://github.com/yourusername/project2',
+      deploy: 'https://yourdeploylink.com/project2'
+    },
+    {
+      title: 'Project 2',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      image: 'https://via.placeholder.com/300x200',
+      github: 'https://github.com/yourusername/project2',
+      deploy: 'https://yourdeploylink.com/project2'
+    },
   ];
 
   return (
