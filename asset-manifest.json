@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Devarsh-Patel-React-Portfolio/static/css/main.ff9de6bb.css",
+    "main.js": "/Devarsh-Patel-React-Portfolio/static/js/main.0ebda895.js",
+    "index.html": "/Devarsh-Patel-React-Portfolio/index.html",
+    "main.ff9de6bb.css.map": "/Devarsh-Patel-React-Portfolio/static/css/main.ff9de6bb.css.map",
+    "main.0ebda895.js.map": "/Devarsh-Patel-React-Portfolio/static/js/main.0ebda895.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff9de6bb.css",
+    "static/js/main.0ebda895.js"
+  ]
+}
