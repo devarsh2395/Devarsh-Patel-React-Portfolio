@@ -3,94 +3,93 @@
   font-size: 1rem;
 }
 #about {
-    /* background-color: #f8f9fa; */
-    padding: 0;
-    margin: 0;
-  }
-  
-  #about .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #about h2 {
-    color: #333;
-    margin: 0;
-    align-content: center;
-  }
-  
-  #about p {
-    color: black;
-    font-size: 1.2rem;
-    line-height: 1.5;
-    max-width: 600px;
-    margin: 0;
-  }
-  
-  #about img {
-    border: 4px solid #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  }
+  background-color: #fff;
+  padding: 50px 0;
+}
 
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #222;
-    color: #fff;
-    padding: 1rem;
-  }
+#about h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#about img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+#about p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #343a40;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+header a {
+  font-size: 1.5rem;
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
 
 
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    margin: 0 1rem;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    color: #ccc;
-  }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-  .page {
-    padding: 1rem;
-    min-height: 80vh;
-  }
-  
-  .page h1 {
-    margin-bottom: 1rem;
-  }
-  
-  .page p {
-    line-height: 1.5;
-  }
-  
-  .page img {
-    max-width: 100%;
-  }
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
 
+nav li {
+  margin-left: 2rem;
+}
+
+nav li.active span {
+  color: #007bff;
+}
+
+nav li span {
+  font-size: 1.5rem;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav li span:hover {
+  text-decoration: underline;
+}
   /* Footer container */
 footer {
   background-color: #343a40;
@@ -164,4 +163,97 @@ footer .social-icons a {
 
 .resume-skills li:hover {
   background-color: #2980b9;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.card-footer {
+  margin-top: 1rem;
+}
+
+.card-footer a {
+  text-decoration: none;
+  color: #2b75c3;
+  font-weight: bold;
+}
+
+.card-footer a:hover {
+  text-decoration: underline;
+}
+
+#contact {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+#contact input[type="text"]:focus,
+#contact input[type="email"]:focus,
+#contact textarea:focus {
+  outline: none;
+  border-bottom: 2px solid #007bff;
+}
+
+#contact input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: #0069d9;
 }

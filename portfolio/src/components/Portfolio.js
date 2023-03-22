@@ -25,18 +25,18 @@ const Portfolio = () => {
       deploy: 'https://pwa-web-app-devarsh.herokuapp.com/'
     },
     {
-      title: 'Project 2',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      image: 'https://via.placeholder.com/300x200',
-      github: 'https://github.com/yourusername/project2',
-      deploy: 'https://yourdeploylink.com/project2'
+      title: 'Weather Dashboard Project',
+      description: 'Planning ahead is easier with the 5-day forecast which gives you an insight into the weather for the next five days.',
+      image: './assets/images/weather-dashboard.png',
+      github: 'https://github.com/devarsh2395/Weather-Dashboard-Project',
+      deploy: 'https://devarsh2395.github.io/Weather-Dashboard-Project/'
     },
     {
-      title: 'Project 2',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      image: 'https://via.placeholder.com/300x200',
-      github: 'https://github.com/yourusername/project2',
-      deploy: 'https://yourdeploylink.com/project2'
+      title: 'Workday Scheduler',
+      description: 'This application is a comprehensive work day calendar that helps users to plan and organize their daily schedule effectively.',
+      image: './assets/images/workday-scheduler.png',
+      github: 'https://github.com/devarsh2395/Work-day-Scheduler-Project',
+      deploy: 'https://devarsh2395.github.io/Work-day-Scheduler-Project/'
     },
   ];
 
