@@ -1,13 +1,19 @@
 {
   "files": {
     "main.css": "/Devarsh-Patel-React-Portfolio/static/css/main.ff9de6bb.css",
-    "main.js": "/Devarsh-Patel-React-Portfolio/static/js/main.0ebda895.js",
+    "main.js": "/Devarsh-Patel-React-Portfolio/static/js/main.c348278e.js",
+    "static/media/Space-Trek.png": "/Devarsh-Patel-React-Portfolio/static/media/Space-Trek.95ce1604e765ac5b8d60.png",
+    "static/media/Asana.png": "/Devarsh-Patel-React-Portfolio/static/media/Asana.becdbed5eff7a2730447.png",
+    "static/media/weather-dashboard.png": "/Devarsh-Patel-React-Portfolio/static/media/weather-dashboard.ff9e81cead1351211338.png",
+    "static/media/devarsh-avatar.png": "/Devarsh-Patel-React-Portfolio/static/media/devarsh-avatar.e822b4939ed6c8000742.png",
+    "static/media/workday-scheduler.png": "/Devarsh-Patel-React-Portfolio/static/media/workday-scheduler.6ceb803b0d47a11488e7.png",
+    "static/media/jate.png": "/Devarsh-Patel-React-Portfolio/static/media/jate.a13baaa866aed4a6b564.png",
     "index.html": "/Devarsh-Patel-React-Portfolio/index.html",
     "main.ff9de6bb.css.map": "/Devarsh-Patel-React-Portfolio/static/css/main.ff9de6bb.css.map",
-    "main.0ebda895.js.map": "/Devarsh-Patel-React-Portfolio/static/js/main.0ebda895.js.map"
+    "main.c348278e.js.map": "/Devarsh-Patel-React-Portfolio/static/js/main.c348278e.js.map"
   },
   "entrypoints": [
     "static/css/main.ff9de6bb.css",
-    "static/js/main.0ebda895.js"
+    "static/js/main.c348278e.js"
   ]
 }
