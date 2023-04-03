@@ -5,6 +5,7 @@ const asana = require('../images/Asana.png');
 const jate = require('../images/jate.png');
 const weather = require('../images/weather-dashboard.png');
 const workday = require('../images/workday-scheduler.png');
+const event = require('../images/event.png');
 
 
 const Portfolio = () => {
@@ -15,6 +16,13 @@ const Portfolio = () => {
       image: asana ,
       github: 'https://github.com/Tegrty/lets-kick-asana',
       deploy: 'https://kick-asana.herokuapp.com/login'
+    },
+    {
+      title: 'JDT Eventworks',
+      description: ' Our app allows event planners to easily create and manage events',
+      image: event ,
+      github: 'https://github.com/ThomasCalle/UTOR-PROJECT-03.git',
+      deploy: 'https://jdt-events.herokuapp.com/'
     },
     {
       title: 'Space Trek',
@@ -44,6 +52,7 @@ const Portfolio = () => {
       github: 'https://github.com/devarsh2395/Work-day-Scheduler-Project',
       deploy: 'https://devarsh2395.github.io/Work-day-Scheduler-Project/'
     },
+    
   ];
 
   return (
