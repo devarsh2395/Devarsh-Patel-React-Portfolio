@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Devarsh-Patel-React-Portfolio/static/css/main.ff9de6bb.css",
-    "main.js": "/Devarsh-Patel-React-Portfolio/static/js/main.8910fcd4.js",
+    "main.css": "/Devarsh-Patel-React-Portfolio/static/css/main.f06ede49.css",
+    "main.js": "/Devarsh-Patel-React-Portfolio/static/js/main.8d0084ad.js",
     "static/media/Space-Trek.png": "/Devarsh-Patel-React-Portfolio/static/media/Space-Trek.95ce1604e765ac5b8d60.png",
     "static/media/Asana.png": "/Devarsh-Patel-React-Portfolio/static/media/Asana.becdbed5eff7a2730447.png",
     "static/media/event.png": "/Devarsh-Patel-React-Portfolio/static/media/event.31aa68f0eae66e6154e2.png",
@@ -10,11 +10,11 @@
     "static/media/workday-scheduler.png": "/Devarsh-Patel-React-Portfolio/static/media/workday-scheduler.6ceb803b0d47a11488e7.png",
     "static/media/jate.png": "/Devarsh-Patel-React-Portfolio/static/media/jate.a13baaa866aed4a6b564.png",
     "index.html": "/Devarsh-Patel-React-Portfolio/index.html",
-    "main.ff9de6bb.css.map": "/Devarsh-Patel-React-Portfolio/static/css/main.ff9de6bb.css.map",
-    "main.8910fcd4.js.map": "/Devarsh-Patel-React-Portfolio/static/js/main.8910fcd4.js.map"
+    "main.f06ede49.css.map": "/Devarsh-Patel-React-Portfolio/static/css/main.f06ede49.css.map",
+    "main.8d0084ad.js.map": "/Devarsh-Patel-React-Portfolio/static/js/main.8d0084ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff9de6bb.css",
-    "static/js/main.8910fcd4.js"
+    "static/css/main.f06ede49.css",
+    "static/js/main.8d0084ad.js"
   ]
 }
