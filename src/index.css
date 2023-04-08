@@ -60,7 +60,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -90,6 +89,7 @@ nav li span {
 nav li span:hover {
   text-decoration: underline;
 }
+
   /* Footer container */
 footer {
   background-color: #343a40;
